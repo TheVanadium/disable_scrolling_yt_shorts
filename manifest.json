@@ -7,7 +7,7 @@
     "description": "Disables scrolling to a new short on Youtube Shorts",
   
     "icons": {
-      "96": "yt_shorts.png"
+      "96": "disable_yt_shorts.png"
     },
   
     "content_scripts": [
