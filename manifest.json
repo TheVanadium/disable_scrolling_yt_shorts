@@ -1,0 +1,22 @@
+{
+
+    "manifest_version": 2,
+    "name": "Disable Scrolling on Youtube Shorts",
+    "version": "1.0",
+  
+    "description": "Disables scrolling to a new short on Youtube Shorts",
+  
+    "icons": {
+      "96": "yt_shorts.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["https://*.youtube.com/*"],
+        "css": ["yt_shorts.css"],
+        "run_at": "document_start"
+      }
+    ]
+  
+  }
+  
